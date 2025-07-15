@@ -39,39 +39,47 @@ text-align:center;
     color: #333333;                   /* 文字の色（少しグレー） */
   }
   
-  .container h2 {
-    color: #ff6f61;                   /* タイトルの色だけ変える（オレンジ） */
-    font-family: 'Georgia', serif;   /* タイトルだけ別のフォントにもできるよ */
-  }
-  
+ h3 {
+color:#a0522d;
+font-size:30px;
+font-weight:bold;
+line-height:150%;
+font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+text-align:center;
+}
 
-  .container {
-    font-family: 'Arial', sans-serif; /* フォントを変える */
-    color: #333333;                   /* 文字の色（少しグレー） */
-  }
-  
-  .container h3 {
-    color: #ff6f61;                   /* タイトルの色だけ変える（オレンジ） */
-    font-family: 'Georgia', serif;   /* タイトルだけ別のフォントにもできるよ */
-  }
-  
-  .container {
-    font-family: 'Arial', sans-serif; /* フォントを変える */
-    color: #333333;                   /* 文字の色（少しグレー） */
-  }
-  
-  .container h4 {
-    color: #670f0f;                   /* タイトルの色だけ変える（オレンジ） */
-    font-family: 'Georgia', serif;   /* タイトルだけ別のフォントにもできるよ */
-  }
+ h4 {
+color:#000000;
+font-size:30px;
+font-weight:bold;
+line-height:150%;
+font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+text-align:center;
+}
 
+ h5 {
+color:#00bfff;
+font-size:30px;
+font-weight:bold;
+line-height:150%;
+font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+text-align:center;
+}
 
-  .container {
-    font-family: 'Arial', sans-serif; /* フォントを変える */
-    color: #333333;                   /* 文字の色（少しグレー） */
-  }
-  
-  .container h5 {
-    color: #43b6dd;                   /* タイトルの色だけ変える（オレンジ） */
-    font-family: 'Georgia', serif;   /* タイトルだけ別のフォントにもできるよ */
-  }
+ h6 {
+color:#f5a818;
+font-size:30px;
+font-weight:bold;
+line-height:150%;
+font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+text-align:center;
+}
+
+ h7 {
+color:#ffc0cb;
+font-size:30px;
+font-weight:bold;
+line-height:150%;
+font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+text-align:center;
+}
