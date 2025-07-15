@@ -38,7 +38,9 @@
             <li><a href="#2">チラ見ちゃん</a></li>
             <li><a href="#3">きなこ</a></li>
             <li><a href="#4">新人</a></li>
-
+　　　　　　<p></p>
+           <p></p>
+           <img src="images/IMG_2483.jpg" alt="写真" class="anim-box fadein is-animated">
          
 
      
@@ -157,26 +159,7 @@
             
         </seection>
              <<img src="images/IMG_2483.jpg" alt="写真" class="anim-box fadein is-animated">
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.fadein');
 
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-animated');
-        observer.unobserve(entry.target); 
-      }
-    });
-  }, {
-    threshold: 0.1
-  });
-
-  elements.forEach(el => {
-    observer.observe(el);
-  });
-});
-</script>
 
 
         
