@@ -22,7 +22,7 @@
 }
  
 .anim-box.fadein.is-animated {
-  animation: fadeIn 0.7s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  animation: fadeIn 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
  
 @keyframes fadeIn {
