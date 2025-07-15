@@ -13,6 +13,29 @@
 	border-color: #ff6f00;
 }
 
+
+
+.anim-box {
+  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+  border-radius: 5px;
+  max-width: 400px;
+  height: 250px;
+}
+
+
+ 
+.anim-box.fadein.is-animated {
+  animation: fadeIn 0.7s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+ 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 p {
 color:#000000;
 font-size:20px;
